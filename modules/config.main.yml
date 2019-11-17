@@ -1,0 +1,15 @@
+#Funimation Downloader NX configuration v1
+bin:
+  ffmpeg: ${__dirname}/modules/ffmpeg
+  mkvmerge: ${__dirname}/modules/mkvtoolnix/mkvmerge
+dir:
+  content: ${__dirname}/videos/
+  trash: ${__dirname}/videos/_trash/
+cli:
+  releaseGroup: Funimation
+  videoLayer: 7
+  fileSuffix: SIZEp
+  nServer: 1
+  mp4mux: false
+  muxSubs: false
+  noCleanUp: false

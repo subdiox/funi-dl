@@ -1,0 +1,14 @@
+/node_modules/
+/modules/ffmpeg/
+/modules/mkvtoolnix/
+.DS_Store
+ffmpeg
+config.token.yml
+package-lock.json
+*.exe
+*.dll
+*.ts
+*.mkv
+*.mp4
+*.srt
+*.bat
